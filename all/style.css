@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+  }
+  
+  
+/* Header Start */
+.navbar{
+    width: 100%;
+    background-color: white;
+}
+/* navbar design */
+
+.logo{
+    width: 150px;
+    height: 40px;
+    margin-left: -20px;
+}
+.navbar-nav{
+    line-height: 1px;
+    gap: 15px;
+    align-items: center;
+   
+}
+
+.navbar-nav .nav-link{
+    font-size: 1rem;
+    color: #131f58;
+    font-weight: 600;
+    display: inline-block;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(255, 0, 72);
+}
+ /* navbar design */
+
+ /* dropdown menu*/
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgb(225, 224, 224);                     
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-nav .dropdown-menu{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+    line-height: 40px; 
+    width: 300px;
+    font-size: 18px;
+    color: #131f58;
+    font-weight: 600;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    color: rgb(255, 0, 72);
+    display: block;
+}
+
+/* dropdown menu*/
+/* nav button  */
+    
+.navbar .nav-button{
+    display: inline-block;
+    background-color: rgb(255, 0, 72);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 30px;
+    transition: 0.5s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+.navbar .nav-button:hover{
+    background-color: #fff;
+    border-color: rgb(255, 0, 72);
+    color:  rgb(255, 0, 72);
+}
+/* nav button  */
+
+/* Header End*/
+
+/* Cover Design Start*/
+.main-banner-content{
+    margin-top: 66px;
+
+    & .banner-h1{
+        margin-top: 110px;
+        font-size: 4rem;
+        color: #131f58;
+        font-weight: 600;
+    }
+    & .banner-pragraph{
+        font-size: 18px;
+        font-weight: 600;
+        color: #353e68;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    & .banner-button{
+        margin-top: 60px;
+    }
+    & .banner-button a{
+        background-color: rgb(255, 0, 72);
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 14px 30px;
+        text-decoration: none;
+        border: 1px solid rgb(255, 0, 72);
+    }
+    & .banner-button a:hover{
+        border: 1px solid rgb(255, 0, 72);
+        background-color: #fff;
+        color: rgb(255, 0, 72);
+        transition: 0.5s;
+    }
+}
+.banner-image{
+    margin-top: 10px;
+    & img{
+        width: 100%;
+    }
+}
+
+/* Cover Design End */
+
+/* Major Organizations Start */
+
+.major-organ{
+    width: 100%;
+
+    & span{
+        font-size: 14px;
+        color: rgb(255, 0, 72);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    & h3{
+        font-size: 2.4rem;
+        margin-top: 10px;
+        color: #131f58;
+        font-weight: 700;
+    }
+    & .organ-img img{
+        object-fit: contain;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        word-wrap: break-word;
+        margin: auto;
+    }
+}
+
+/* Major Organizations End */
+
+/* How We Works Start */
+
+
+.features-section{
+    margin-top: 50px;
+
+    & .how-to-works{
+        margin-top: 50px;
+    }
+
+    & span{
+        font-size: 14px;
+        color: rgb(255, 0, 72);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    & h3{
+        font-size: 2.4rem;
+        margin-top: 10px;
+        color: #131f58;
+        font-weight: 700;
+    }
+    & .features-content-area p{
+        font-size: 14px;
+        font-weight: 500;
+        color: #797979;
+        margin-top: 40px;
+        line-height: 25px;
+    }
+    & .features-content-area a{
+        background-color: rgb(255, 0, 72);
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 13px 30px;
+        text-decoration: none;
+        border: 1px solid rgb(255, 0, 72);
+    }
+    & .features-content-area a:hover{
+        border: 1px solid rgb(255, 0, 72);
+        background-color: #fff;
+        color: rgb(255, 0, 72);
+        transition: 0.5s;
+    }
+
+    & .box1{
+        background-color: #f1eff8;
+    }
+    & .box2{
+        background-color: #fbe6d4;
+    }
+    & .box3{
+        background-color: #f0fffc;
+    }
+    & .box4{
+        background-color: #f8e1eb;
+    }
+    
+    & .single-features-item{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        padding: 30px 20px;
+        margin-bottom: 25px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(235, 235, 235);
+        transition: 0.8s;
+        outline: none;
+        border: none; 
+
+        & .icon img{
+            width: auto;
+            height: 70px;
+        }
+        & img{
+            padding: 10px;
+            border: 3px dotted blue;
+            border-radius: 50%;
+        }
+        & h3{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #353e68;
+            margin-top: 20px;
+        }
+        & p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #797979;
+            margin-top: 20px;
+            line-height: 25px;
+        }
+    }
+    & .single-features-item:hover{
+        border: 1px dotted rgb(255, 0, 72);
+        background-color: white;
+        transition: 0.8s;
+        box-shadow: none;
+        
+    }
+}
+
+
+/* How We Works End */
+
+/* Services Part Start  */
+
+.services-section{
+    width: 100%;
+    
+    & .services-title{
+        text-align: center;
+        padding-top: 100px;
+
+        span{
+            font-size: 14px;
+            color: rgb(255, 0, 72);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 2.4rem;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: #131f58;
+            font-weight: 700;
+        }
+    }
+
+    & .services-box{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        margin: 15px 0px;
+        padding: 30px 10px;
+        border-radius: 5px;
+        
+        
+        img{
+            height: auto;
+            width: 70px;
+            padding: 15px;
+            border-radius: 50%;
+        }
+        .img-1{
+            background-color: rgb(231, 231, 251);
+        }
+        .img-2{
+            background-color: rgb(210, 255, 198);
+        }
+        .img-3{
+            background-color: rgb(251, 254, 188);
+        }
+        .img-4{
+            background-color: rgb(201, 230, 244);
+        }
+        .img-5{
+            background-color: rgb(255, 211, 199);
+        }
+        .img-6{
+            background-color: rgb(237, 208, 255);
+        }
+
+        h3{
+            font-size: 1.2rem;
+            color: #252d4e;
+            font-weight: 700;
+            margin: 15px;
+        }
+        p{
+            color: #757575;
+            font-size: 14px;
+        }
+        
+    }
+    & .services-box:hover{
+        background-color: rgb(255, 0, 72);
+        transition: 0.3s ease-in-out;
+        transform: translateY(-15px);
+
+        h3{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+}
+
+/* Services Part End  */
+
+/* Product Part Start  */
+
+.product-section{
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+
+    & span{
+        font-size: 14px;
+        color: rgb(255, 0, 72);
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 300px;
+    }
+    & h3{
+        font-size: 2.4rem;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: #131f58;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    & .product-details:hover{
+        box-shadow: 0 0 20px rgb(235, 235, 235);
+        transform: translateY(-15px);
+        transition: 0.4s;
+    } 
+
+    & .product-details{
+        height: auto;
+        width: 98%;
+        border: 1px solid rgb(255, 234, 209);
+        padding: 30px 20px 35px 20px;
+
+        img{
+            width: 80%;
+            height: 80px;
+            
+        }
+        p{
+            font-size: 18px;
+            margin-top: 15px;
+            color: #797979;
+            margin-bottom: 40px;
+        }
+        a{
+            font-size: 1rem;
+            text-decoration: none;
+            color: #28292f;
+            border: 1px solid rgb(255, 0, 72);
+            font-weight: 500;
+            padding: 8px 30px;
+            text-decoration: none;
+            transition: 0.5s; 
+        }
+        a:hover{
+            background-color: rgb(255, 0, 72);
+            color: #fff;  
+        }
+    }
+}
+
+ /* Product Part End  */
+
+/* About Part Start  */
+
+.about-section{
+    & .about-image img{
+        width: 100%;
+        height: 500px;
+        margin-left: -60px;
+    }
+    & .about-content{
+
+        & span{
+            font-size: 14px;
+            color: rgb(255, 0, 72);
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 300px;
+        }
+        & h3{
+            font-size: 2.4rem;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: #131f58;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        & p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #797979;
+            line-height: 1.7;
+        }
+    }
+    & .data-count{
+
+        .odometer{
+            font-size: 2.1rem;
+            color: #383940;
+            font-weight: 600;
+        }
+        .sign-icon{
+           font-size: 2rem;
+           font-weight: 900;
+           color: rgb(255, 106, 0);
+           margin-top: -5px; 
+        }
+        p{
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #757575;
+        }
+    }
+    
+}
+
+/* About Part End  */
+
+/* Choose Section Start  */
+
+.choose-section{
+
+
+    & .choose-content-area{
+        & span{
+            font-size: 14px;
+            color: rgb(255, 0, 72);
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 300px;
+        }
+        & h3{
+            font-size: 2.4rem;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: #131f58;
+            font-weight: 700;
+            margin-bottom: 35px;
+        }
+        & p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #797979;
+            line-height: 1.7;
+        }
+
+        & .choose-text{
+            display: flex;
+
+            i{
+                margin: 20px;
+                font-size: 1.5rem;
+                background-color: white;
+                color: rgb(255, 0, 72);
+                height: 31px;
+                width: 40px;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            i:hover{
+                color: white;
+                background-color: rgb(255, 0, 72);
+            }
+            h4{
+                font-size: 1.2rem;
+                font-weight: 550;
+                color: #131f58;
+                margin-top: 10px;
+            }
+        }
+        & .choose-btn{
+            margin-top: 30px;
+            margin-bottom: 150px;
+
+            a{
+                color: white;
+                background-color: rgb(255, 0, 72);
+                font-size: 14px;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 13px 30px;
+                border: 1px solid rgb(255, 0, 72);
+            }
+            a:hover{
+                background-color: white;
+                color: rgb(255, 0, 72);
+                border: 1px solid rgb(255, 0, 72);
+                transition: 0.5s;
+            }
+        }
+    }
+    & .choose-image{
+        width: 100%;
+
+        img{
+            height: 700px;
+            width: 100%;
+        }
+    }
+}
+
+/* Choose Section End  */
+
+/* footer Section Start */
+
+.footer-section{
+    color: #ffffff;
+    background-image: url(img/footer-bg.jpg);
+    padding: 90px;
+
+    & .footer-area{
+
+        & .footer-heading{
+            h3{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        p{
+            font-size: 14px;
+            margin-top: 40px;
+            line-height: 25px;
+            color: #d1cfcf;  
+        }
+
+        & .sosial-media{
+            display: flex;
+            cursor: pointer;
+
+            i{
+                font-size: 14px;
+                margin: 10px;
+                height: 35px;
+                width: 35px;
+                line-height: 5px;
+                border-radius: 50%;
+                background-color: white;
+                color: rgb(255, 74, 225);
+                text-align: center;
+                padding: 15px 10px 10px 10px;
+            }
+            i:hover{
+                transition: 0.5s;
+                color: white;
+                background-color: rgb(251, 50, 97);
+            }
+        }
+    }
+
+    .footer-item-area{
+        & h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .footer-quick-links{
+            margin-top: 30px;
+            cursor: pointer;
+    
+            li{
+                list-style: none;
+                line-height: 35px;
+                margin-left: -30px;
+    
+                a{
+                    color: #e0dbdb;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: rgb(255, 0, 72);
+                    transition: 0.8s;
+                }
+            }
+        }
+    }
+
+    .footer-heading{
+        cursor: pointer;
+
+        h3{
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+    i{
+        font-size: 20px;
+        padding: 15px 15px 15px 0px;
+    }
+    span{
+
+        a{
+            font-size: 14px;
+            text-decoration: none;
+            color: #e0dbdb;
+            font-weight: 400;
+            text-decoration: none;
+            line-height: 35px;
+        }
+        a:hover{
+            color: rgb(255, 0, 72);
+            transition: 0.8s;
+        }
+    } 
+}
+
+
+/* footer Section End */
+
+/* CopyRight Section Start  */
+
+
+
+
+/* CopyRight Section End  */
+
+.copyright-section{
+
+   & .copyright{
+        font-size: 14px;
+        color: white;
+        background-color: #010529;
+        color: #d7cfcf;
+        font-weight: 400;
+        padding: 20px 0px;
+        padding-top: 40px;
+
+        a{
+            text-decoration: none;
+            color: #d7cfcf;
+            padding: 10px;
+        }
+        a:hover{
+            color: rgb(255, 0, 72);
+        }
+        .vr{
+            color: white;
+        }
+    }
+}
+
+
+
